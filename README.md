@@ -1,9 +1,9 @@
 # How to create AKS cluster using Terraform
 Pre-requistes: 
-    Terraform is installed on the client.
-    Account setup in Azure.
-    Kubectl is installed on the client.
-    Azure cli is installed.
+1. Terraform is installed on the client.
+2. Account setup in Azure.
+3. Kubectl is installed on the client.
+4. Azure cli is installed.
 
 
 Login to Azure using credentials
