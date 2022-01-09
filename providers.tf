@@ -1,3 +1,4 @@
+# declare the providers with version
 provider "azurerm" {
   features {}
 }
