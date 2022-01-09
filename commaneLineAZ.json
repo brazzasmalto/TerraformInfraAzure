@@ -29,6 +29,7 @@
       "CmdShowAKSCluster": "az aks show --name BrakinAKSCluster --resource-group BrakinReG",
       "CmdCreateACR": "az acr create --resource-group BrakinReG --name BrakinACRImages --sku Standard --location francecentral",
       "CmdConnectAKSCluster": "az aks get-credentials --resource-group BrakinReG --name BrakinAKSCluster --overwrite-existing"
+      "CmdDeleteAKSCluster": "az aks delete --name BrakinAKSCluster --resource-group BrakinReG --delete-resource-group true"
     },
     "CreateAKSClusterWithAzCmd": {
     },
