@@ -29,6 +29,9 @@
       "CmdCreateACR": "az acr create --resource-group BrakinReG --name BrakinACRImages --sku Standard --location francecentral",
       "CmdConnectAKSCluster": "az aks get-credentials --resource-group BrakinReG --name BrakinAKSCluster --overwrite-existing"
     },
+    {
+     "CmdDeployingDockerImagesFromACRIintoAKSCluster": "az aks update -n myAKSCluster -g myResourceGroup --attach-acr BrakinACRImages"
+    },
     "PowerShellConnect": {
       "CmdLogin": "Login-AzureRmAccount",
       "CmdCreateResourceGroup": "New-AzureRmResourceGroup -Name BrakinResource `-Location centralfrench",
