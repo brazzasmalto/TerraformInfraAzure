@@ -1,3 +1,4 @@
+# Declare the values for the variables
 resource_group_name = "BrakinReG"
 location            = "CentralFrance"
 cluster_name        = "devops-brakin-aks"
