@@ -1,4 +1,5 @@
-#In Azure, all infrastructure elements such as virtual machines, storage, and our Kubernetes cluster need to be attached to a resource group.
+# main configuration file with all the resources which will be created
+# In Azure, all infrastructure elements such as virtual machines, storage, and our Kubernetes cluster need to be attached to a resource group.
 
 resource "azurerm_resource_group" "aks-rg" {
   name     = var.resource_group_name
