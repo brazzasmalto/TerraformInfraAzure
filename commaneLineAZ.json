@@ -9,6 +9,16 @@
         "AZ": 3
       }
     },
+    {
+     "Pre-requistes"
+      "InstallCLI": "Azure CLI is installed on your local machine"
+      "InstallChocolatey": {
+        "LoginOnPowershellAsAdim": "First, ensure that you are using an administrative shell"
+        "CheckIfGetExecutionPolicy": "If it returns Restricted, then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process"
+        "CmdSetExecutionPolicy": "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+        "CmdSetChoco": "Type choco or choco -? now, or see Getting Started for usage instructions"
+       }
+    }
     "CreateAKSClusterWithAzCmd": {
       "CmdLogin": "az login",
       "CmdCreateResourceGroup": "az group create --name BrakinReG --location francecentral",
